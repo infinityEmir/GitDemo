@@ -54,6 +54,9 @@ public class Basic {
 		System.out.println(actualAddress);
 		//new line added for git hub demo
 		System.out.println(newAddress);
+		System.out.println(actualAddress);
+		//new line added for git hub demo
+		System.out.println(newAddress);
 		Assert.assertEquals(actualAddress, newAddress);
 		
 		

@@ -52,11 +52,6 @@ public class Basic {
 		JsonPath js1=ReUsableMethods.rawToJson(getPlaceResponse);
 		String actualAddress=js1.getString("address");
 		System.out.println(actualAddress);
-		//new line added for git hub demo
-		System.out.println(newAddress);
-		System.out.println(actualAddress);
-		//new line added for git hub demo
-		System.out.println(newAddress);
 		Assert.assertEquals(actualAddress, newAddress);
 		
 		

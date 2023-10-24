@@ -107,4 +107,15 @@ public static String deleteBooks(String isbn, String aisle) {
 		return payload;
 	}
 
+public static String deleteBooks1(String isbn, String aisle) {
+	
+	String id = isbn+aisle;
+	String payload = "{\r\n"
+			+ "\"ID\" : \""
+			+ ""+id+"\"\r\n"
+			+ "} \r\n"
+			+ "";
+	return payload;
+}
+
 }
